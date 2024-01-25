@@ -3,13 +3,15 @@ import './App.css';
 //import TestComp from './components/functionalComponents/testcomponents';
 //import TestClassComp from './components/classComponents/testClassComponents';
 import PropsComponent from './components/functionalComponents/PropsComponent';
+import StateComponent from './components/classComponents/StateComponent';
 function App() {
   return (
     <div className="App">
       {/* <TestClassComp/> */}
       <header className="App-header">
       {/* <TestComp/> */}
-      <PropsComponent name ="Indhu" course="MERN" rollno="21ECR080"/>
+      {/* <PropsComponent name ="Indhu" course="MERN" rollno="21ECR080"/> */}
+      <StateComponent />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

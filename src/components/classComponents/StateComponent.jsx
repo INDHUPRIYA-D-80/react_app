@@ -1,4 +1,5 @@
-import React from "react";
+import "../../css/PropsComponent.css"
+import React,{Component} from "react";
 class StateComponent extends React.Component {
     constructor() {
         super()

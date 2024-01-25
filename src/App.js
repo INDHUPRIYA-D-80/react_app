@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import TestComp from './components/functionalComponents/testcomponents';
-import TestClassComp from './components/classComponents/testClassComponents';
-import Login from './components/classComponents/LoginComponent';
+//import TestComp from './components/functionalComponents/testcomponents';
+//import TestClassComp from './components/classComponents/testClassComponents';
+import PropsComponent from './components/functionalComponents/PropsComponent';
 function App() {
   return (
     <div className="App">
-      <TestClassComp/>
+      {/* <TestClassComp/> */}
       <header className="App-header">
-      <TestComp/>
+      {/* <TestComp/> */}
+      <PropsComponent name ="Indhu" course="MERN" rollno="21ECR080"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

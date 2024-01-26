@@ -2,6 +2,13 @@ ol{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: aquamarine;
+    background-color:coral;
+    color: black;
     margin: 0px;
+    text-decoration: none;
+    
+}
+ul{
+    list-style-type: none;
+    text-align: justify;
 }

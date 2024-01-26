@@ -12,7 +12,7 @@ const Home =()=>{
                   <li>Spread Operator</li>
                   <li>CallBack</li>
                   </h4>
-              <h3><li>2.JSX-JavaScript XHTMl</li></h3>
+              <h3><li>2.JSX-JavaScript XHTML</li></h3>
               <li><h4>All your tags are Nested inside only one Tag</h4></li>
         </ul>
         </div>

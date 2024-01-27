@@ -35,13 +35,23 @@ const About = () => {
     console.log("Welcomes you")
     useEffect(() => {
         console.log("Don't be afraid of where you are starting just thought what you are leaning")
-    },[tabName])
+    }, [tabName])
     return (
         <div>
+            <br></br>
             <h1>{tabName}</h1>
-            <button onClick={updateTablet}>Click me to learn about Es6</button>
-            <button onClick={updateTablet1}>Click me to learn about JSX</button>
+            <br></br>
+            <button onClick={updateTablet}>Click me to learn about Es6</button><br></br><br></br>
+            <button onClick={updateTablet1}>Click me to learn about JSX</button><br></br><br></br>
             <button onClick={updateTablet2}>Click me to learn about REACT</button>
+
+            <h2>React Js
+    
+    Js is a globally used Front-end JS framework and is popular with both software developers and project sponsors
+    React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.
+    The website which are using REACT are built in such of that it will not refresh the entire page but the only the required part.
+    
+    </h2> 
         </div>
     )
 }

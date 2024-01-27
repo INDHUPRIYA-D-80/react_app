@@ -9,25 +9,31 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './components/functionalComponents/Home';
 import About from '../src/components/functionalComponents/About';
 import Explanation from './components/functionalComponents/Explanation';
-import Login from './components/functionalComponents/Login';
+import LearnMore from './components/functionalComponents/LearnMore';
 import Title from './components/functionalComponents/Title';
 import Footer from './components/functionalComponents/footer';
+import Register from './components/functionalComponents/register';
+import Login from './components/functionalComponents/Login';
 function App() {
   return (
     <div className="App">
       <Title />
       <BrowserRouter>
+        <br></br>
+        <br></br>
         <Navbar />
         <Routes>
           <Route path="/Home" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
           <Route path="/Explantion" element={<Explanation />}></Route>
+          <Route path="/LearnMore" element={<LearnMore />}></Route>
+          <Route path="/register" element={<Register />}></Route>
           <Route path="/Login" element={<Login />}></Route>
         </Routes>
       </BrowserRouter>
       <br></br>
-<br></br>    
-  <img src="images.png" alt="" width={"40%"} />
+      <br></br>
+      <img src="images.png" alt="" width={"40%"} />
 
       {/* <BrowserRouter>
          <footer />
@@ -60,10 +66,10 @@ function App() {
         >
           Learn React
         </a> */}
-<br></br>
-<br></br>
-<br></br>
-<hr></hr>
+      <br></br>
+      <br></br>
+      <br></br>
+      <hr></hr>
       <Footer />
 
     </div>

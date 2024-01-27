@@ -1,0 +1,44 @@
+body { background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.wp.com%2Fblog.mernchiropractic.com%2Fwp-content%2Fuploads%2F2020%2F05%2FLOGO-2020-CROP-r1.png%3Ffit%3D1719%252C600%26ssl%3D1&tbnid=ISAhD7yFl_MqWM&vet=10CHUQMyiaAWoXChMI8OeB2fz9gwMVAAAAAB0AAAAAEAI..i&imgrefurl=https%3A%2F%2Fblog.mernchiropractic.com%2Fsupplements-to-boost-your-immune-system%2F&docid=O4lceLSWVNeGsM&w=1719&h=600&itg=1&q=mild%20react%20picture%20in%20mern&ved=0CHUQMyiaAWoXChMI8OeB2fz9gwMVAAAAAB0AAAAAEAI");
+    background-position: center; 
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	background-color: none;
+	background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+color: #232729;
+text-align: center;
+}
+
+p{
+color:#161817 ;
+    font-size: 17px;
+}
+form{
+width: 30%;
+margin: auto;
+margin-top: 15vh;
+box-shadow:10px 10px 10px 10px rgb(169,160,160);
+padding: 10px;}
+body{
+background-color: antiquewhite;
+}
+.input
+{
+width: 50%;
+float: right;
+margin-right: 6%;
+}
+p{
+margin-left: 10%;
+}
+.submit
+{
+margin-left: 10%;
+}

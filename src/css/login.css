@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 50px;
+  font-size: 30px;
+}
+
+form {
+  width: 30%;
+  margin: auto;
+  margin-top: 15vh;
+  box-shadow: 10px 10px 10px 10px rgb(169, 160, 160);
+  padding: 10px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.input {
+  width: 50%;
+  float: right;
+  margin-right: 6%;
+}
+
+p {
+  color: #161817;
+  font-size: 17px;
+}
+
+.submit {
+  margin-left: 10%;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+}

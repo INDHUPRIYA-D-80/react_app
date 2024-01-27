@@ -1,4 +1,5 @@
 import "../../css/login.css"
+import { Link } from "react-router-dom";
 const Register = () => {
 	return (
 		<div>
@@ -13,7 +14,7 @@ const Register = () => {
 						<p>Address:<input class="input" type="text" name="faddress" value="" required></input ></p><br></br>
 						<p>Mobile No:<input class="input" type="text" name="fmobno"></input ></p><br></br>
 						<button class="submit" type="submit"></button><br></br>
-						<p>Already have an account? <a href="signIn.jsx">Login</a>.</p>
+						<p>Already have an account?<li><Link to='/Login'>Login</Link></li></p>
 					</strong>
 				</form>
 			</body>

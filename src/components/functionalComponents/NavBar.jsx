@@ -11,6 +11,9 @@ const Navbar = () => {
                 <li><Link to='/LearnMore'>Learn More</Link></li>
                 <li><Link to='/register'>Register</Link></li>
                 <li><Link to='/Login'>Login</Link></li>
+                <li><Link to ='/useRef'>UseRef</Link></li>
+                <li><Link to ='/memo'>Memo</Link></li>
+                <li><Link to ='/callback'>CallBack</Link></li>
             </ol>
         </nav>
     )

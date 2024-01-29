@@ -7,6 +7,9 @@ const Explanation=()=>{
     return(
         <div>
             <h1>Welcome to {college}.</h1>
+            <h1>
+            Example for useState
+        </h1>
             <button onDoubleClick={updating}>Update  Name</button>
           <h2>  React is a JavaScript-based UI development library.</h2>
           <ul>

@@ -14,6 +14,9 @@ import Title from './components/functionalComponents/Title';
 import Footer from './components/functionalComponents/footer';
 import Register from './components/functionalComponents/register';
 import Login from './components/functionalComponents/Login';
+import Reference from './components/functionalComponents/Reference';
+import Memo from './components/functionalComponents/Memo';
+import CallBack from './components/functionalComponents/Callback';
 function App() {
   return (
     <div className="App">
@@ -29,6 +32,10 @@ function App() {
           <Route path="/LearnMore" element={<LearnMore />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/Login" element={<Login />}></Route>
+          <Route path="/useRef" element={<Reference />}></Route>
+          <Route path="/memo" element={<Memo />}></Route>
+          <Route path="/callback" element={<CallBack />}></Route>
+        
         </Routes>
       </BrowserRouter>
       <br></br>

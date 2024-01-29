@@ -40,6 +40,9 @@ const About = () => {
         <div>
             <br></br>
             <h1>{tabName}</h1>
+            <h1>
+            Example for UseEffect
+        </h1>
             <br></br>
             <button onClick={updateTablet}>Click me to learn about Es6</button><br></br><br></br>
             <button onClick={updateTablet1}>Click me to learn about JSX</button><br></br><br></br>
